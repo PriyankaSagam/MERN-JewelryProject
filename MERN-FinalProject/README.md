@@ -13,4 +13,5 @@
 
 5. connect to mongoose
 
+6. update package.json and vite.config.js
 

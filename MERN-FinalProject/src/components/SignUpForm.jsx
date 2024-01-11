@@ -46,7 +46,7 @@ export class SignUpForm extends Component {
 
     return (
       <div>
-        <div className="form=container">
+        <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit}>
             <label>Name</label>
             <input
