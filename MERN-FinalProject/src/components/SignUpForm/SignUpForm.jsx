@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import the SignUp method
-import { signUp } from "../utilities/users-services";
+import { signUp } from "../../utilities/users-services";
 
 export class SignUpForm extends Component {
   state = {
@@ -21,7 +21,7 @@ export class SignUpForm extends Component {
 
   handleSubmit = async (evt) => {
     evt.preventDefault();
-    // alert(JSON.stringify(this.state));
+    alert(JSON.stringify(this.state));
     try {
       // We don't want to send the 'error' or 'confirm' property,
       // so let's make a copy of the state object, then delete them

@@ -15,3 +15,9 @@
 
 6. update package.json and vite.config.js
 
+7. user looks frontend..signup form talks to the userServices.js..from userServices.js calls users-api ..it calls server.cjs thats backend.
+
+# Images
+
+ https://www.istockphoto.com/
+
