@@ -13,8 +13,7 @@ const Item = require('../models/item.cjs');
     {name: 'Necklace', sortOrder: 30},
     {name: 'Rings', sortOrder: 40},
     {name: 'Anklets', sortOrder: 50},
-    {name: 'Desserts', sortOrder: 60},
-    {name: 'Drinks', sortOrder: 70},
+    
   ]);
 
   await Item.deleteMany({});

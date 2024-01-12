@@ -19,6 +19,7 @@ export default function NewOrderPage({ user, setUser }) {
   useEffect(function() {
     async function getItems() {
       const items = await itemsAPI.getAll();
+      console.log(items);
       categoriesRef.current = items.reduce((cats, item) => {
         const cat = item.category.name;
         return cats.includes(cat) ? cats : [...cats, cat];
